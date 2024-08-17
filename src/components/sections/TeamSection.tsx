@@ -7,19 +7,19 @@ function TeamSection() {
     {
       id: 0,
       imageUrl: "/images/vanessa.jpg",
-      name: "Vanessa Laird",
-      profession: "UI Designer",
+      name: "Arya Patil",
+      profession: "Website developer",
     },
     {
       id: 1,
       imageUrl: "/images/mason.jpg",
-      name: "Mason Campbell",
+      name: "Shlok Pedenekar",
       profession: "UI Designer",
     },
     {
       id: 2,
       imageUrl: "/images/irea.jpg",
-      name: "Irea Evans",
+      name: "Aryan Nimkar",
       profession: "Client Manager",
     },
   ];

@@ -7,23 +7,23 @@ function ServiceSection() {
     {
       id: 0,
       iconUrl: "/images/activity_icon.png",
-      title: "Graphic Design",
+      title: "Website Development ",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque dui mi, bibendum eu erat id, ultricies semper metus. Nunc dapibus laoreet dolor nec imperdiet.",
+        " Web development fuses creativity with technology, building visually appealing, functional websites. It creates user-friendly interfaces, turning ideas into digital realities, ensuring businesses thrive in an ever-evolving online landscape",
     },
     {
       id: 1,
       iconUrl: "/images/video_icon.png",
-      title: "Video Editing",
+      title: "App Development ",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque dui mi, bibendum eu erat id, ultricies semper metus. Nunc dapibus laoreet dolor nec imperdiet.",
+        "App development blends creativity with technology to create user-friendly, innovative mobile experiences. It involves designing and coding apps that solve problems, engage users, and enhance daily life, driving success in the digital era.",
     },
     {
       id: 2,
       iconUrl: "/images/chart_icon.png",
       title: "Digital Marketing",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque dui mi, bibendum eu erat id, ultricies semper metus. Nunc dapibus laoreet dolor nec imperdiet.",
+        "Digital marketing combines creativity with data-driven strategies to reach and engage target audiences online. It’s about crafting compelling content, leveraging social media, SEO, and analytics to drive brand growth and customer engagement in the digital age..",
     },
   ];
   return (
@@ -40,6 +40,7 @@ function ServiceSection() {
         ))}
       </div>
     </section>
+    
   );
 }
 
