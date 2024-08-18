@@ -6,13 +6,13 @@ function TeamSection() {
   const teamData = [
     {
       id: 0,
-      imageUrl: "/images/vanessa.jpg",
+      imageUrl: "/images/Arya.jpg",
       name: "Arya Patil",
       profession: "Website developer",
     },
     {
       id: 1,
-      imageUrl: "/images/mason.jpg",
+      imageUrl: "/images/Shlok.jpg",
       name: "Shlok Pedenekar",
       profession: "UI Designer",
     },
@@ -24,7 +24,7 @@ function TeamSection() {
     },
     {
       id: 3,
-      imageUrl: "/images/irea.jpg",
+      imageUrl: "/images/Kartik.jpg",
       name: "Kartik Mehta",
       profession: "Client Manager",
     },
