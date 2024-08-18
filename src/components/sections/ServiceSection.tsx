@@ -23,7 +23,7 @@ function ServiceSection() {
       iconUrl: "/images/chart_icon.png",
       title: "Digital Marketing",
       description:
-        "Digital marketing combines creativity with data-driven strategies to reach and engage target audiences online. It’s about crafting compelling content, leveraging social media, SEO, and analytics to drive brand growth and customer engagement in the digital age..",
+        "Digital marketing combines creativity with data-driven strategies to reach and engage target audiences online. It's about crafting compelling content, leveraging social media, SEO, and analytics to drive brand growth and customer engagement in the digital age..",
     },
   ];
   return (
