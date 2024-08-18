@@ -17,9 +17,7 @@ function NewsletterSection() {
         </div>
         <div>
           <p className="mb-[1.44rem] text-normal font-semibold">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam
+      Pin down your Email and  Connect with us to work  !!
           </p>
 
           <Input

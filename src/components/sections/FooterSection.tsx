@@ -21,10 +21,7 @@ function FooterSection() {
       </div>
       <Separator />
       <div className="pb-[2.56rem]">
-        <p className="text-customGray">
-          Startup Framework contains components and complex blocks which can
-          easily be integrated into almost any design.
-        </p>
+       
       </div>
     </section>
   );
