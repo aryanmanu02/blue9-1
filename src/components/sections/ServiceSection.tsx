@@ -6,41 +6,45 @@ function ServiceSection() {
   const serviceData = [
     {
       id: 0,
-      iconUrl: "/images/activity_icon.png",
-      title: "Website Development ",
+      iconUrl: "https://cdn-icons-png.flaticon.com/128/7991/7991055.png",
+      title: "Website Development",
       description:
-        " Web development fuses creativity with technology, building visually appealing, functional websites. It creates user-friendly interfaces, turning ideas into digital realities, ensuring businesses thrive in an ever-evolving online landscape",
+         "Crafting responsive, user-friendly websites that elevate your brand. We deliver innovative web development solutions tailored to drive your business forward.",
     },
     {
       id: 1,
-      iconUrl: "/images/video_icon.png",
-      title: "App Development ",
+      iconUrl: "https://cdn-icons-png.flaticon.com/128/9662/9662287.png",
+      title: "App Development",
       description:
-        "App development blends creativity with technology to create user-friendly, innovative mobile experiences. It involves designing and coding apps that solve problems, engage users, and enhance daily life, driving success in the digital era.",
+      "Building intuitive, high-performance apps that engage users. We deliver custom app development solutions designed to grow your business and brand.",
     },
     {
       id: 2,
-      iconUrl: "/images/chart_icon.png",
+      iconUrl: "https://cdn-icons-png.flaticon.com/128/1968/1968666.png",
       title: "Digital Marketing",
       description:
-        "Digital marketing combines creativity with data-driven strategies to reach and engage target audiences online. It's about crafting compelling content, leveraging social media, SEO, and analytics to drive brand growth and customer engagement in the digital age..",
+      "Driving growth with targeted digital marketing strategies. We elevate your brand with tailored campaigns designed to engage and convert your audience.",
     },
   ];
+
   return (
     <section>
-      <Header title="service" subtitle="Our Vison & Our Goal" />
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3  gap-[3.56rem] justify-around mt-8 md:mt-[6.75rem]">
+      <Header title="service" subtitle="Our Vision & Our Goal" />
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-[3.56rem] justify-around mt-8 md:mt-[6.75rem]">
         {serviceData.map((service) => (
-          <ServiceCard
+          <div
             key={service.id}
-            title={service.title}
-            description={service.description}
-            iconUrl={service.iconUrl}
-          />
+            className="animate-fadeInUp"
+          >
+            <ServiceCard
+              title={service.title}
+              description={service.description}
+              iconUrl={service.iconUrl}
+            />
+          </div>
         ))}
       </div>
     </section>
-    
   );
 }
 
