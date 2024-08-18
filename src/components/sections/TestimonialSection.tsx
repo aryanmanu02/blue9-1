@@ -11,7 +11,7 @@ function TestimonialSection() {
       review:
         "Get a fully retina ready site when you build with Startup Framework. Websites look sharper and more gorgeous on devices with retina display support",
     },
-
+ 
     {
       id: 1,
       imageUrl: "/images/kayley.jpg",
@@ -34,19 +34,20 @@ function TestimonialSection() {
     },
   ];
   return (
-    <section className="mt-[9rem]">
-      <Header title="testimonials" subtitle="What Clients say about us" />
-      <div className="grid grid-cols-1 gap-16  md:grid-cols-2 mt-8 md:mt-[6.75rem]">
-        {appReviewData.map((review) => (
-          <TestimonialCard
-            key={review.id}
-            imageUrl={review.imageUrl}
-            review={review.review}
-            reviewerName={review.reviewerName}
-          />
-        ))}
-      </div>
-    </section>
+    // <section className="mt-[9rem]">
+    //   <Header title="testimonials" subtitle="What Clients say about us" />
+    //   <div className="grid grid-cols-1 gap-16  md:grid-cols-2 mt-8 md:mt-[6.75rem]">
+    //     {appReviewData.map((review) => (
+    //       <TestimonialCard
+    //         key={review.id}
+    //         imageUrl={review.imageUrl}
+    //         review={review.review}
+    //         reviewerName={review.reviewerName}
+    //       />
+    //     ))}
+    //   </div>
+    // </section>
+    <div></div>
   );
 }
 
