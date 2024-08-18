@@ -52,7 +52,7 @@ function NavBar() {
       </div>
       {/* MOBILE */}
       <div
-        className={`block lg:hidden shadow-sm fixed top-0 w-full z-[999] bg-white py-4 animate-in fade-in zoom-in ${
+        className={`block lg:hidden shadow-sm fixed top-0 w-full z-[999] bg-white py-1 animate-in fade-in zoom-in ${
           menu ? " bg-primary py-2" : ""
         }`}
       >
