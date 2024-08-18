@@ -59,7 +59,7 @@ function NavBar() {
         <div className="flex justify-between mx-[10px]">
           <div className="flex gap-[50px] text-[16px] items-center select-none">
             <img
-              src="/images/epixelap_logo.png"
+              src="/images/main.png"
               alt="logo"
               className="w-[5rem]"
             />
