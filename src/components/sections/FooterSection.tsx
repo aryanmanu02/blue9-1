@@ -6,7 +6,7 @@ function FooterSection() {
     <section className="flex flex-col gap-[1.9rem] w-full mt-[10.44rem]">
       <div className="flex flex-col md:flex-row gap-8 justify-between items-center">
         <div>
-          <img src="/images/main.png" alt="footer logo" className="w-[4rem]" />
+          <img src="/images/LogoF.png" alt="footer logo" className="w-[10rem]" />
         </div>
         <div className="text-lightBlue text-[1rem] font-serif">
           © 2024 Blue9 Tech & Media . All rights reserved.
