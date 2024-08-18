@@ -43,7 +43,7 @@ function NavBar() {
 
       {/* MOBILE */}
       <div
-        className={`block lg:hidden shadow-sm fixed top-0 w-full z-[999] bg-white py-1 animate-fade-in ${
+        className={`block lg:hidden shadow-sm fixed top-0 w-full z-[999] bg-white py-0 animate-fade-in ${
           menu ? "bg-primary py-2" : ""
         }`}
       >
