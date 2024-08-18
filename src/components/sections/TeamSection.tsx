@@ -2,9 +2,6 @@ import React from "react";
 import Header from "../common/Header";
 import TeamCard from "../cards/TeamCard";
 
-
-
-
 function TeamSection() {
   const teamData = [
     {
@@ -38,12 +35,11 @@ function TeamSection() {
     <section className="mt-[9rem]">
       <Header title="our team" subtitle="Meet The Team" />
       <div className="overflow-x-auto mt-8 md:mt-[3.31rem]">
-        <div className="flex space-x-4">
+        <div className="grid grid-cols-2 gap-4 md:grid-cols-2 lg:grid-cols-4">
           {teamData.map((team) => (
             <div
               key={team.id}
-              className="flex-shrink-0 w-64"
-              style={{ flex: '1 0 calc(25% - 1rem)' }} // Adjust to fit 4 cards
+              className="flex-shrink-0"
             >
               <TeamCard
                 imageUrl={team.imageUrl}
