@@ -18,7 +18,7 @@ function TeamSection() {
     },
     {
       id: 2,
-      imageUrl: "/images/irea.jpg",
+      imageUrl: "/images/Aryan.jpg",
       name: "Aryan Nimkar",
       profession: "Web Designer",
     },
