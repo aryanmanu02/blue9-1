@@ -1,6 +1,6 @@
 import React from "react";
 
-const SocialsPage = () => {
+const Contact = () => {
   const instagramUsername = "Blue9.tech"; // Replace with actual Instagram username
   const instagramLink = "https://www.instagram.com/Blue9.tech"; // Replace with actual Instagram link
   const linkedinUsername = "bluetech_media"; // Replace with actual LinkedIn username
@@ -33,4 +33,4 @@ const SocialsPage = () => {
   );
 };
 
-export default SocialsPage;
+export default Contact;

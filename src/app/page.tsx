@@ -8,6 +8,10 @@ import TestimonialSection from "@/components/sections/TestimonialSection";
 import VideoPlayerSection from "@/components/sections/VideoPlayerSection";
 import '@/app/globals.css';
 import '@fortawesome/fontawesome-free/css/all.min.css';
+import React from 'react';
+import ReactDOM from 'react-dom';
+import { BrowserRouter } from 'react-router-dom';
+import Link from "next/link";
 
 export default function Home() {
   return (

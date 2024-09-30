@@ -1,9 +1,18 @@
 "use client";
-
+import Link from "next/link";
 import { useState } from "react";
 import { X } from "lucide-react";
 import MainButton from "./MainButton";
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+  Navigate,
+} from "react-router-dom";
+
+import SocialsPage from "@/contact/contactus";
+
 function NavBar() {
   const [menu, setMenu] = useState(false);
   const toggleMenu = () => {
@@ -28,13 +37,15 @@ function NavBar() {
             <p className="hover:text-primary cursor-pointer flex items-center gap-2 font-[500] text-gray">
               About Us
             </p>
+            <Link href="#services">
+            
             <p className="hover:text-primary cursor-pointer flex items-center gap-2 font-[500] text-gray">
               Services
             </p>
+            </Link>
             <p className="hover:text-primary cursor-pointer flex items-center gap-2 font-[500] text-gray">
               {/* Contacts */}
-              {/* <Link to="src\app\page2.tsx">Contact</Link> */}
-              Contact Us
+              <Link href="/contact">Contact Us</Link>
             </p>
           </div>
           <div className="flex items-center gap-[40px] select-none">
@@ -81,9 +92,11 @@ function NavBar() {
               <p className="hover:text-primary cursor-pointer flex items-center gap-2 font-[500] text-gray">
                 About Us
               </p>
+              <Link href="#services">
               <p className="hover:text-primary cursor-pointer flex items-center gap-2 font-[500] text-gray">
                 Services
               </p>
+              </Link>
               <p className="hover:text-primary cursor-pointer flex items-center gap-2 font-[500] text-gray">
                 <a href="src\app\page2.tsx">Contacts</a>
                 
@@ -103,4 +116,3 @@ function NavBar() {
 }
 
 export default NavBar;
-

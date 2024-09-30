@@ -28,7 +28,11 @@ function ServiceSection() {
   ];
 
   return (
-    <section>
+    <div id="services">
+      <span>
+      {" "}
+    </span>
+    <section id="services">
       <Header title="service" subtitle="Our Vision & Our Goal" />
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-[3.56rem] justify-around mt-8 md:mt-[6.75rem]">
         {serviceData.map((service) => (
@@ -45,6 +49,7 @@ function ServiceSection() {
         ))}
       </div>
     </section>
+    </div>
   );
 }
 
