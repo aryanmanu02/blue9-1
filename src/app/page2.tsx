@@ -9,19 +9,20 @@ import VideoPlayerSection from "@/components/sections/VideoPlayerSection";
 import '@/app/globals.css';
 import '@fortawesome/fontawesome-free/css/all.min.css';
 
+
 export default function Home() {
   return (
     <main>
       <NavBar />
       <div className="mt-24 md:32 lg:mt-8 px-4  md:px-[9rem]">
-        <HeroSection /> 
+        {/* <HeroSection /> 
         <ServiceSection />
         <VideoPlayerSection />
         <TestimonialSection />
         <TeamSection />
         <NewsletterSection />
-        <FooterSection /> 
-        {/* <SocialsPage/> */}
+        <FooterSection />  */}
+  
         {/* <AboutUs/> */}
 
 

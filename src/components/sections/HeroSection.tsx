@@ -40,9 +40,11 @@ import MainButton from "../common/MainButton";
 
 function HeroSection() {
   const [isVisible, setIsVisible] = useState(false);
+  const [number,setnumber] = useState(9);
 
   useEffect(() => {
     setIsVisible(true);
+
   }, []);
 
   return (
@@ -51,11 +53,13 @@ function HeroSection() {
         isVisible ? "translate-y-0 opacity-100" : "-translate-y-20 opacity-0"
       }`}
     >
-      <div>
-        <p className="font-[850] md:leading-[5.0625rem] text-2xl md:text-[4.375rem] text-darkBlue">
-          We boost growth for your startup business
-        </p>
+      {/* change in code */}
+      <div> 
+        <h1 className="font-[850] md:leading-[5.0625rem] text-2xl md:text-[4.375rem] text-darkBlue">
+          We boost growth for your startup business 
+        </h1>
         <p className="text-[1.375rem] font-[500]">
+          
           Our goal is to top at the heart of the creativity services industry as
           a digital creator.
         </p>

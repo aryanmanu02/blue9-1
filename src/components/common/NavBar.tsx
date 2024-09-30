@@ -3,7 +3,7 @@
 import { useState } from "react";
 import { X } from "lucide-react";
 import MainButton from "./MainButton";
-
+import { Link } from 'react-router-dom';
 function NavBar() {
   const [menu, setMenu] = useState(false);
   const toggleMenu = () => {
@@ -18,6 +18,9 @@ function NavBar() {
           <div>
             <img src="/images/main.png" alt="logo" className="w-[6rem]" />
           </div>
+          <p className="hover:text-primary cursor-pointer font-[500] text-gray font-serif text-2xl text-left ">
+              <b>Blue 9 Tech & Media</b>
+          </p>
           <div className="flex gap-[20px] xl:gap-[50px] text-[16px] items-center select-none">
             <p className="hover:text-primary cursor-pointer flex items-center gap-2 font-[500] text-gray">
               Home
@@ -29,7 +32,9 @@ function NavBar() {
               Services
             </p>
             <p className="hover:text-primary cursor-pointer flex items-center gap-2 font-[500] text-gray">
-              Contacts
+              {/* Contacts */}
+              {/* <Link to="src\app\page2.tsx">Contact</Link> */}
+              Contact Us
             </p>
           </div>
           <div className="flex items-center gap-[40px] select-none">
@@ -80,7 +85,8 @@ function NavBar() {
                 Services
               </p>
               <p className="hover:text-primary cursor-pointer flex items-center gap-2 font-[500] text-gray">
-                Contacts
+                <a href="src\app\page2.tsx">Contacts</a>
+                
               </p>
               <div className="flex flex-col gap-[40px] select-none">
                 {/* <p className="hover:text-primary cursor-pointer flex items-center gap-2  font-[500] text-gray">
@@ -97,3 +103,4 @@ function NavBar() {
 }
 
 export default NavBar;
+
